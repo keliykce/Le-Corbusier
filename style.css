@@ -1,0 +1,81 @@
+body{
+	    text-align:left; 
+   		width: 516px;
+   		margin:100px;
+      margin-left:50px;
+      margin-bottom:45px;
+   		position: absolute;
+      font-size:18px;
+      letter-spacing:3.7px;
+      line-height:21px;
+      margin-top:8vh;
+      font-family:STSong;
+      color:white;
+      background-color:rgb(20,20,20);
+        font-variant-ligatures:none;
+  
+  
+}
+
+.line{border-top: 1px dotted white;}
+
+p{margin-top:30px;margin-bottom:30px;}
+.colour--lightgrey:hover{background-color:rgb(220,220,220);color:rgb(20,20,20);transition: all 0.5s ease 0s;}
+.colour--grey:hover{background-color:rgb(160,160,160);color:rgb(20,20,20);transition: all 0.5s ease 0s;}
+.colour--darkgrey:hover{background-color:rgb(40,40,40);color:rgb(160,160,160);transition: all 0.5s ease 0s;}
+.colour--black:hover{background-color:black;color:rgb(160,160,160);transition: all 0.5s ease 0s;}
+.colour--darkred:hover{background-color:rgb(118,30,30);color:rgb(160,160,160);transition: all 0.5s ease 0s;}
+
+
+.language--English{letter-spacing:2.5px;font-family:Times;color:rgb(160,160,160);}
+
+.ball{
+width:21vw;
+height:21vw;
+border-radius:50%;
+background-color:rgb(20,20,20);
+z-index:-1;
+position:fixed;
+margin:200px;
+margin-left:60vw;
+animation: shadow 12s linear infinite;
+}
+@keyframes shadow {
+  0% {box-shadow:0px 0px 80px rgb(0,0,0);}
+  50% {box-shadow:0px 0px 300px rgb(100,100,100);}
+  100% {box-shadow:0px 0px 80px rgb(0,0,0);}
+}
+
+#grid {
+  display:grid;
+  grid-template-columns:430px;
+  grid-template-rows:auto;
+  text-align:right;
+  color:rgb(160,160,160);
+  font-size:25px;
+  line-height:36px;
+  position:fixed;
+  letter-spacing:3px;
+  font-family:Hiragino Kaku Gothic Pro;
+  margin-left:60vw;
+  margin-top:50px;}
+
+
+a{text-decoration:none;}
+a.language--English {color:grey;}
+a.colour--grey:hover {background-color:rgb(160,160,160);color:rgb(20,20,20);}
+a.colour--darkgrey:hover {background-color:rgb(40,40,40);color:rgb(160,160,160);}
+a.colour--black:hover {background-color:black;color:rgb(160,160,160);}
+a.colour--lightgrey:hover {background-color:rgb(220,220,220);color:rgb(20,20,20);}
+a.colour--darkred:hover {background-color:rgb(118,30,30);color:rgb(160,160,160);}
+a:hover{text-decoration:none;}
+
+
+.back{position:absolute;font-size:20px;}
+.back:hover{background-color:rgb(100,100,100);color:black;transition: all 0.3s ease 0s;}
+.white{color:white}
+
+
+.return{position:absolute;font-size:20px;}
+.return:hover{background-color:rgb(100,100,100);color:black;transition: all 0.3s ease 0s;}
+.white{color:white}
