@@ -1,2 +1,2 @@
 # Le-Corbusier
-HI!!!
+A simple webpage of French architect Le Corbusier!
